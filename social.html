@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <title>BibUPF| Social</title>
+</head>
+
+<body>
+    <!--Cabeçalho do site-->
+    <header id="topo" class="conteiner">
+        <h1>
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo UPF" />
+            </a>
+        </h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" class="btn">Home</a></li>
+                <li><a href="produtos.html" class="btn">Produtos</a></li>
+                <li><a href="Aluno.html" class="btn">Social</a></li>
+                <li><a href="sobre.html" class="btn">Sobre</a></li>
+                <li><a href="contato.html" class="btn">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fim do Cabeçalho-->
+
+    <!--<main> representa o conteúdo principal da página-->
+    <main class="conteiner">
+       <article class="pagina-contato">
+        <header class="cabecalho">
+            <h2>Social</h2>
+        </header>
+        <div class="flex-conteiner conteudo">
+            <form action="POST" class="painel-contato">
+                <p>Conte para as outras pessoas como foi a sua leitura! Escreva sua resenha/experiência abaixo.</p>
+                <label>
+                    <strong>Nome: </strong>
+                    <input type="text" name="name" placeholder="Preencha com seu nome" required>
+                </label>
+                <label>
+                    <strong>Titulo do Livro: </strong>
+                    <input type="text" name="name" placeholder="Informe o livro" required>
+                </label>
+                <label>
+                    <strong>Avaliação (1-5): </strong>
+                    <input type="number" name="name" placeholder="digite a nota de (1-5) para essa obra." required>
+                </label>
+                <label>
+                    <strong>Mensagem: </strong>
+                    <textarea name="mensagem" placeholder="Digite sua mensagem" required id="men" cols="30" rows="10"></textarea>
+                </label>
+                <button type=" submit" class="btn">
+                    enviar
+                </button>
+            </form>
+            <aside class="painel-resenha">
+                <h1>Ultimas resenhas</h1><br><br>
+                <div class="resenhas">
+                    <h2 class="uso">Usuario#0879</h2>
+                    <h3 class="livrore">O Homem de Giz</h3>
+                    <h3 class="av">Avaliação: 5</h3>
+                    <h3 class="mensagemr">Minha sincera opinião sobre essa obra de arte<br>
+                        O plot twist dessa história é simplesmente perfeito, cada capítulo te prende na leitura, você se envolve na leitura e no mistério da cidade e da vida do protagonista, os capítulos são em formas de ?vai e vem? cada capítulo intercala entre 2016 e 1986</h3>
+                </div>
+                <div class="resenhas">
+                    <h2 class="uso">Usuario#0576</h2>
+                    <h3 class="livrore">Akira</h3>
+                    <h3 class="av">Avaliação: 5</h3>
+                    <h3 class="mensagemr"> Ação extremamente bem conduzida!<br>
+                       
+                    Essa é a minha primeira vez lendo Akira e esse primeiro volume já me mostrou super bem a qualidade dessa obra.
+                    A história é ótima e está me deixando bem curioso com todos os mistérios deixados no ar. Mal posso esperar pra começar no próximo volume.
+                    Pra mim o maior ponto positivo desse mangá é a arte Incrível e toda a sensação de continuidade que ela transmite. Me senti assistindo uma animação recheada de ótimas cenas de ação.
+                    A leitura fluiu muito bem e mal deu para sentir que li muito por conta do ritmo frenético dos acontecimentos.
+                    Tá aí um excelente obra que faz jus a toda sua fama. Katsuhiro Otomo é de fato um dos gênios dos mangás. Recomendo demais essa leitura.</h3>
+                </div>
+                <div class="resenhas">
+                    <h2 class="uso">Usuario#7005</h2>
+                    <h3 class="livrore">Relatos de um gato Viajante</h3>
+                    <h3 class="av">Avaliação: 5</h3>
+                    <h3 class="mensagemr"> docemente devastador.<br>                       
+                        eu gostaria que houvessem adjetivos melhores para descrever esse livro, mas o mais próximo disso que encontro são estes. sensível. doce. triste. chorei um oceano, e estava ciente de que eu choraria muito, pois tenho uma ligação muito forte com gatos, mas até mesmo soluçando de chorar eu permaneci maravilhada e encantada durante toda a leitura com a forma que ele foi escrito, a narração feita pelo gato, a beleza do amor que pode existir em um gesto de ronronar e um carinho na cabeça, um capítulo de uma vida sendo acompanhada por um pequeno animal ao lado e a preenchendo com significado, um gato que pode nos ensinar tantas coisas sobre a nossa vida, um ser humano que para este gatinho foi como um lar.</h3>
+                </div>
+                
+                <div class="resenhas">
+                    <h2 class="uso">Usuario#6908</h2>
+                    <h3 class="livrore">O Paciente</h3>
+                    <h3 class="av">Avaliação: 4</h3>
+                    <h3 class="mensagemr">quase lá !<br>
+                        Até o meio do livro é excelente e me envolveu bastante , dava pra dar 5 estrelas fácil , mas quando chega no final o livro da uma enfraquecida com um plost bem mediano .No entanto o livro merecia um final bem melhor , felizmente o final não estraga a história e vale a recomendação da leitura , pois em uma visão geral é uma historia muito boa .</h3>
+                </div>
+                
+            </aside>
+            
+
+        </div>
+
+       </article>
+    </main>
+    <!--Fim do conteúdo <main>-->
+
+    <!--Rodapé do Site-->
+    <footer id="rodape">
+        <div class="conteiner flex-conteiner">
+            <img src="img/produtosamz/rodadalogo2.png" alt="Rodapé" />
+            
+            <div id="textoRodape">
+                Universidade de Passo Fundo, BR 285 Km 292,7 
+                <br> Campus I, Bairro São José  
+                <br> CEP 99052-900 | Passo Fundo/RS
+            </div>
+
+            <nav class="social">
+                <ul>
+                    <li><a href="https://www.facebook.com/universidadedepassofundo" target="_blank"><span>Facebook</span></a></li>
+                    <li><a href="https://twitter.com/universidadeupf" target="_blank"><span>Twitter</span></a></li>
+                    <li><a href="https://www.instagram.com/universidadeupf/" target="_blank"><span>Instagram</span></a></li>
+                    <li><a href="https://www.youtube.com/UPFoficial" target="_blank"><span>YouTube</span></a></li>
+                    <li><a href="https://www.linkedin.com/edu/school?id=10612" target="_blank"><span>Linkedin</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!--Fim do Rodapé do Site-->
+</body>
+
+</html>

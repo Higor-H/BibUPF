@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>BibUPF| Sobre</title>
+</head>
+
+<body>
+    <!--Cabeçalho do site-->
+    <header id="topo" class="conteiner">
+        <h1>
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo UPF" />
+            </a>
+        </h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" class="btn">Home</a></li>
+                <li><a href="produtos.html" class="btn">Produtos</a></li>
+                <li><a href="Aluno.html" class="btn">Aluno</a></li>
+                <li><a href="sobre.html" class="btn">Sobre</a></li>
+                <li><a href="contato.html" class="btn">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fim do Cabeçalho-->
+
+    <!--<main> representa o conteúdo principal da página-->
+    <main class="conteiner">
+       <article class="pagina-contato">
+        <header class="cabecalho">
+            <h2>Contato</h2>
+        </header>
+        <div class="flex-conteiner conteudo">
+            <form action="POST" class="painel-contato">
+                <p>Para entrar em contato com a BipUPF, prencha o formulário abaixo:</p>
+                <label>
+                    <strong>Nome: </strong>
+                    <input type="text" name="name" placeholder="Preencha com seu nome" required>
+                </label>
+                <label>
+                    <strong>E-mail: </strong>
+                    <input type="email" name="name" placeholder="Informe seu e-mail" required>
+                </label>
+                <label>
+                    <strong>Telefone: </strong>
+                    <input type="text" name="name" placeholder="Informe seu telefone" required>
+                </label>
+                <label>
+                    <strong>Assunto: </strong>
+                    <input type="text" name="name" placeholder="Qual seu assunto" required>
+                </label>
+                <label>
+                    <strong>Mensagem: </strong>
+                    <textarea name="mensagem" placeholder="Digite sua mensagem" required id="men" cols="30" rows="10"></textarea>
+                </label>
+                <button type=" submit" class="btn">
+                    enviar
+                </button>
+            </form>
+            <aside class="painel-contato">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56241.679759291736!2d-52.4566576513672!3d-28.234492999999983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e2c03f83f94db5%3A0xdfe6e084fda3029c!2sUniversidade%20de%20Passo%20Fundo!5e0!3m2!1spt-BR!2sbr!4v1681858162848!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Fundação Universidade de Passo Fundo, BR 285 Km 292,7 | Campus I, Bairro São José | CEP 99052-900 | Passo Fundo/RS</p>
+            </aside>
+            
+
+        </div>
+
+       </article>
+    </main>
+    <!--Fim do conteúdo <main>-->
+
+    <!--Rodapé do Site-->
+    <footer id="rodape">
+        <div class="conteiner flex-conteiner">
+            <img src="img/logo-rodape.png" alt="Rodapé" />
+            
+            <div id="textoRodape">
+                Universidade de Passo Fundo, BR 285 Km 292,7 
+                <br> Campus I, Bairro São José  
+                <br> CEP 99052-900 | Passo Fundo/RS
+            </div>
+
+            <nav class="social">
+                <ul>
+                    <li><a href="https://www.facebook.com/universidadedepassofundo" target="_blank"><span>Facebook</span></a></li>
+                    <li><a href="https://twitter.com/universidadeupf" target="_blank"><span>Twitter</span></a></li>
+                    <li><a href="https://www.instagram.com/universidadeupf/" target="_blank"><span>Instagram</span></a></li>
+                    <li><a href="https://www.youtube.com/UPFoficial" target="_blank"><span>YouTube</span></a></li>
+                    <li><a href="https://www.linkedin.com/edu/school?id=10612" target="_blank"><span>Linkedin</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!--Fim do Rodapé do Site-->
+</body>
+
+</html>
