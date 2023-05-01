@@ -1,0 +1,345 @@
+
+.banner-destaque {
+    width: 700px;
+    /*determina o tamanho da imagem*/
+}
+
+.banner-destaque img {
+    width: 100%;
+    /*ocupa 100% do espaço definido */
+}
+
+/*paneis*/
+
+.paineis {
+    margin-top: 20px;
+
+    
+}
+
+
+
+.novidades,
+.mais-vendidos,
+.exclusivosUPF,
+.kindle,
+.destaques-livros{
+    
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.novidades small,
+.mais-vendidos small,
+.exclusivosUPF small,
+.kindle small,
+.destaques-livros small{
+    padding: 5px 10px;
+    text-align: center;
+    line-height: 1.1;
+    margin: 20px;
+}
+
+
+.novidades h2 ,
+.mais-vendidos h2,
+.exclusivosUPF h2,
+.kindle h2,
+.destaques-livros h2{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.novidades li,
+.mais-vendidos li,
+.exclusivosUPF li,
+.kindle li,
+.destaques-livros li{
+    width: 115px;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.novidades img,
+.mais-vendidos img,
+.exclusivosUPF img,
+.kindle img,
+.destaques-livros img {
+    width: 100%;
+}
+
+.novidades figcaption,
+.mais-vendidos figcaption,
+.exclusivosUPF figcaption,
+.kindle figcaption,
+.destaques-livros figcaption {
+    padding: 5px 10px;
+    text-align: center;
+    line-height: 1.1;
+    margin: 20px;
+}
+
+
+/*animação produtos*/
+
+.novidades figure  s:hover,
+.mais-vendidos li :hover,
+.exclusivosUPF li :hover,
+.kindle li :hover,
+.destaques-livros li :hover{
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+    border-radius: 15px;
+    transform: scale(1.1) rotate(3deg);
+    
+}
+
+/*fim da animação*/
+
+.novidades a,
+.mais-vendidos a,
+.exclusivosUPF a,
+.kindle a,
+.destaques-livros a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+
+
+.novidades{
+    background-color:rgb(237, 207, 37);
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 150px;
+    
+}
+
+
+.exclusivosUPF{
+    background-color: rgb(46, 165, 42);
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.kindle{
+    background-color:rgb(42, 65, 165);
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 150px;
+
+}
+
+.destaques-livros{
+    background-color: brown;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 150px;
+}
+
+.formatos {
+    background-image: url('../img/produtosamz/formatosbkg.png');
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.formatos h1{
+    font-size: 45px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.formatos h2{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.pfor{
+    font-size: 20px;
+}
+
+.formatos p{
+    font-size: 18px;
+    padding-top: 7px;
+}
+.formatos small{
+    font-size: 15px;
+    font-style:italic;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+.menu-baixo{
+    text-align: center; /*alinha no centro*/
+    font-size: 25px; /*tamanho da fonte*/
+    padding: 20px; /*expaçamento entre elementos*/
+    background-color: black; /*cor do fundo*/
+    margin-top: 20px;
+   }
+   .um,
+   .dois,
+   .tres,
+   .quatro,
+   .cinco{
+       color: aliceblue; /*cor da fonte*/
+       text-decoration: none;/*tirra o risco abaixo do link*/
+       padding: 15px;
+   }
+   
+   .um:hover{
+       background-color: brown;
+       border-radius: 15px;
+   }
+   
+   .dois:hover{
+       background-color: rgb(237, 207, 37);
+       border-radius: 15px;
+   }
+   .tres:hover{
+       background-color: rgb(28, 215, 190);
+       border-radius: 15px;
+   }
+   .quatro:hover{
+       background-color: rgb(46, 165, 42);
+       border-radius: 15px;
+   }
+   .cinco:hover{
+       background-color: rgb(42, 65, 165);
+       border-radius: 15px;
+   }
+
+
+
+   .container {
+    position: relative;
+    bottom: 5px;
+    width: 150px;
+    height: 243px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+/*overlays*/
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #620218;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #937d03;
+  }
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #02620c;
+  }
+  .overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #022862;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  .container:hover .overlay2 {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  .container:hover .overlay3 {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
+  .container:hover .overlay4 {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  .text {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.novidades div,
+.mais-vendidos div,
+.exclusivosUPF div,
+.kindle div,
+.destaques-livros div{
+    display: inline-block;
+    
+  }
+.novidades a,
+.mais-vendidos a,
+.exclusivosUPF a,
+.kindle a,
+.destaques-livros a{
+    bottom: 5px;
+    width: 150px;
+    height: 243px;    
+  }
+
+  

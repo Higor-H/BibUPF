@@ -1,0 +1,149 @@
+
+*{
+    box-sizing: border-box;
+}
+
+/*Cabeçalhos padrão*/
+.cabecalho{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 15px;
+    background-image: url('../img/sobre-background.jpg');
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+body{
+    font-family: "Helvetica",	"Lucida	Grande",	sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+.conteiner{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+#topo{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#topo .menu{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#topo .menu li {
+    display: inline;
+    margin-left: 10px;
+
+}
+
+/*menu animação hover*/
+
+
+.menu{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    color: gray;
+    padding: 10px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: black;
+    background-color: lightgray;
+    padding: 40px, 40px;
+    border: solid 1px black;
+    font-size: bold;
+    border-radius: 15px;
+}
+
+
+
+
+
+/*Rodapé*/
+#rodape{
+    background-image: url('../img/produtosamz/rodabac.png');
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+#rodape .social a{
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+#rodape .social a span{
+    display: none;
+}
+
+/*
+Operadores:
+= exatamente igual
+*= contém
+^= começa com
+$= termina com
+*/
+#rodape .social a[href *= 'facebook.com']{
+    background-image: url('../img/produtosamz/froda32.png');
+}
+
+#rodape .social a[href *= 'twitter.com']{
+    background-image: url('../img/produtosamz/troda30.png');
+}
+
+#rodape .social a[href *= 'instagram']{
+    background-image: url('../img/produtosamz/iroda32.png');
+}
+
+#rodape .social a[href *= 'youtube']{
+    background-image: url('../img/produtosamz/youroda32.png');
+}
+
+#rodape .social a[href *= 'linkedin']{
+    background-image: url('../img/icon-in.jpg');
+}
+
+#textoRodape{
+    margin-left: -60px;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+}
+
+#rodape .social li{
+    display: inline-block;
+    margin: 10px;
+}
+
+#rodape .flex-conteiner{
+       
+    align-items: center;
+}
+
+

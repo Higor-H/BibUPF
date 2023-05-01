@@ -1,0 +1,142 @@
+.busca,
+.menu-departamentos {
+    background-color: lightgray;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 230px;
+
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    padding: 10px;
+}
+
+.busca h2,
+.menu-departamentos h2 {
+    font-size: 16px;
+}
+
+.busca form {
+    padding-top: 0;
+}
+
+.busca form [type=text] {
+    width: 180px;
+}
+
+.busca button {
+    background-image: url('../img/busca.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    border: none;
+    text-indent: -9999px;
+    /*remove o texto*/
+}
+
+.menu-departamentos {
+    margin-top: 30px;
+    /*esáçamento entre menus*/
+}
+
+.menu-departamentos li {
+    background-color: white;
+    /*coloca fundo em branco */
+    margin-bottom: 3px;
+    /*expacamento do texto 5px */
+    padding: 5px 13px;
+}
+
+.menu-departamentos a {
+    text-decoration: none;
+    color: #363535;
+}
+
+.menu-departamentos li:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    color: black;
+}
+
+.banner-destaque {
+    width: 700px;
+    /*determina o tamanho da imagem*/
+}
+
+.banner-destaque img {
+    width: 100%;
+    /*ocupa 100% do espaço definido */
+}
+
+/*paneis*/
+
+.paineis {
+    margin-top: 20px;
+    
+}
+
+.novidades,
+.mais-vendidos {
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.novidades h2 ,
+.mais-vendidos h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.novidades li,
+.mais-vendidos li {
+    width: 115px;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.novidades img,
+.mais-vendidos img {
+    width: 100%;
+}
+
+.novidades figcaption,
+.mais-vendidos figcaption {
+    padding: 5px 10px;
+    text-align: center;
+    line-height: 1.1;
+}
+
+
+/*animação produtos*/
+
+.novidades li :hover,
+.mais-vendidos li :hover{
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+    border-radius: 15px;
+    transform: scale(1.1) rotate(3deg);
+}
+/*fim da animação*/
+
+.novidades a,
+.mais-vendidos a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.novidades{
+    background-color:rgb(237, 207, 37);
+}
+
+.mais-vendidos{
+    background-color:rgb(42, 65, 165);
+}

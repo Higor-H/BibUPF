@@ -1,0 +1,108 @@
+.pagina-contato .conteudo{
+    margin-top: 10px;
+}
+
+.painel-resenha{
+    width: 100%;
+}
+
+
+.pagina-contato form label{
+    margin-bottom: 15px;
+    display: block;
+}
+
+.pagina-contato form input,
+.pagina-contato textarea{
+    width: 100%;
+    border: solid 2px gray;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: .5s; /*Transição de lementos*/
+}
+
+
+.pagina-contato form .btn{
+    border: none;
+    background-color: gray;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+    padding: 10px 25px;
+
+}
+
+.pagina-contato form p{
+    margin: 15px 0;
+}
+
+.pagina-contato form strong{
+    font-weight: bold;
+}
+
+.pagina-contato aside iframe{
+    width: 100%;
+    height: 440px;
+}
+
+.pagina-contato aside p{
+    margin-top: 10px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+.resenhas{
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 15, 25);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: solid;
+    border-color: rgb(168, 155, 192);
+    
+    border-width: 2px;
+    border-radius: 15px;
+}
+.resenhas img{
+    width: 50px;
+}
+.uso{
+    font-size: 20px;
+    padding: 10px;
+    border-color: brown;
+    border-style: solid;
+}
+.livrore{
+    font-size: 15px;
+    padding: 5px;
+    font-style:italic;
+}
+.av{
+    font-size: 14px;
+    padding: 4px;
+}
+.mensagemr{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(34, 27, 90);
+    border-radius: 15px;
+}
+.painel-resenha{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.painel-resenha h1{
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family:  "Trirong", serif;
+    background-color: black;
+}
+
